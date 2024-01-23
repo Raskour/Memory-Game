@@ -51,6 +51,12 @@ const cardArray = [
 
 cardArray.sort(() => 0.5 - Math.random());
 
+// sort method is used to shuffle the elements in the cardArray.
+// The sort method in JavaScript is typically used for
+// arranging elements in an array in a specific order.
+// However, in this case, a sorting function is provided that
+// doesn't actually perform any meaningful sorting.
+
 const gridDisplay = document.querySelector("#grid");
 const resultDisplay = document.querySelector("#result");
 
